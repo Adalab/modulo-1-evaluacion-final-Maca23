@@ -13,6 +13,7 @@
     width: 100vw;
     background-image: url('../images/cover.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 
@@ -63,4 +64,73 @@ p {
 .ico-scroll-down {
     width: 13px;
     height: 12px;
+}
+
+.section1 {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.p1-section1 {
+    color: #8ccbea;
+    width: 90px;
+    height: 30px;
+    text-transform: capitalize;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.title-section1 {
+    width: 290px;
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.p2-section1 {
+    width: 290px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4a4a4a;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.button-go {
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 2px solid #f26002;
+    background-color: white;
+    color: #f26002;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.section2 {
+    background-color: #eff9ff;
+    padding-top: 30px;
+}
+
+.title-section2 {
+    width: 290px;
+    height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 45px;
+    
 }
