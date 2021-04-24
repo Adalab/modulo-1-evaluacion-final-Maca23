@@ -124,10 +124,9 @@
 .wrapper {
   background-color: #eff9ff;
   padding-top: 30px;
-  height: 100vh;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 100%;
+  grid-template-rows: repeat( 5, 20% );
   text-align: center;
 }
 
@@ -139,6 +138,7 @@
     line-height: 30px;
     color: #000000;
     text-transform: capitalize;
+    padding-top: 30px;
 }
 
 .item2, .item3, .item4 {
@@ -147,6 +147,7 @@
     text-align: center;
     line-height: 30px;
     text-transform: initial;
+    padding: 45px;
 }
 
 .button-reasons {
@@ -155,11 +156,13 @@
     background-color: #f26002;
     color: #eff9ff;
     font-size: 20px;
-    text-align: center;
     line-height: 45px;
     border-radius: 25px;
     border: 1px solid #f26002;
     text-transform: initial;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 60px;
 }
 
 
