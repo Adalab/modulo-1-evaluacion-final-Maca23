@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 45px;
 }
 
 .button-footer {
@@ -76,6 +77,10 @@
 }
 
 @media (min-width: 768px) {
+  .button-footer {
+    margin-left: 39px;
+  }
+  
   .footer-wrapper {
     width: 90%;
     flex-direction: row;
