@@ -13,9 +13,13 @@
   height: 45px;
   border-radius: 50%;
   background-color: $c-white;
-  border: 1px solid $c-white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   text-align: center;
   transform: translate(0, -50%);
+  transition: transform ease 0.5s;
+  &:hover {
+    transform: translate(0, -80%);
+  }
 }
 
 .button-footer_arrow {
