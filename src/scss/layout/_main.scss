@@ -73,10 +73,9 @@
   padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 20%);
+  grid-template-rows: 40px repeat(4, 20%);
   text-align: center;
   gap: 20px;
- 
 }
 
 .item1 {
@@ -113,7 +112,8 @@
   text-transform: initial;
   align-self: center;
   justify-self: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  margin-top: 5px;
   &:hover {
     background-color: $c-menu;
   }
@@ -137,14 +137,20 @@
     font-size: 20px;
   }
 
+  .button-go {
+    width: 91px;
+  }
+
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 0.3fr 1.5fr 0.5fr;
+    padding: 0 24px;
   }
 
   .item1 {
     font-size: 26px;
     grid-column: span 3;
+    margin-top: 45px;
   }
 
   .item2-title,
@@ -184,7 +190,11 @@
     font-size: 32px;
   }
 
-  .button-reasons{
+  .wrapper {
+    padding: 85px;
+  }
+
+  .button-reasons {
     width: 255px;
   }
 }

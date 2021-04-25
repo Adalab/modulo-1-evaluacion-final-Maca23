@@ -73,14 +73,10 @@
   line-height: 30px;
   color: $c-white;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
-  .button-footer {
-    margin-left: 39px;
-  }
-
   .footer-wrapper {
     width: 90%;
     flex-direction: row;
@@ -96,7 +92,7 @@
 
   .copy {
     order: -1;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
   }
 
   .list-nav2 {
