@@ -10,6 +10,10 @@
   flex-direction: column;
 }
 
+.title-hero {
+  margin: 0 15px;
+}
+
 .title-hero1 {
   width: 100%;
   max-width: 300px;
@@ -55,14 +59,24 @@
 }
 
 @media (min-width: 768px) {
+  .title-hero {
+    margin: 0 39px;
+  }
+
   .title-hero1 {
     max-width: 800px;
     font-size: 80px;
     line-height: 106px;
-    
   }
 
   .subtitle-hero {
     font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-hero1 {
+    font-size: 100px;
+    line-height: 132px;
   }
 }

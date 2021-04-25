@@ -1,7 +1,10 @@
+.container {
+  margin: 0 15px;
+}
+
 .section1 {
   width: 100%;
   padding-top: 30px;
-  padding-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +18,6 @@
   font-family: $font-roboto;
   font-size: 14px;
   line-height: 30px;
-  display: flex;
-  justify-content: center;
   align-self: flex-start;
 }
 
@@ -66,20 +67,24 @@
 }
 
 .wrapper {
+  width: 100%;
+  height: auto;
   background-color: $ice-blue;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 45px repeat(4, 20%);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 20%);
   text-align: center;
   gap: 20px;
-  padding-bottom: 60px;
+ 
 }
 
 .item1 {
+  width: 100%;
   font-family: $font-slab;
   font-size: 24px;
   text-align: center;
+  margin-top: 30px;
   line-height: 30px;
   text-transform: capitalize;
 }
@@ -87,16 +92,19 @@
 .item2,
 .item3,
 .item4 {
+  width: 100%;
   font-family: $font-roboto;
   font-size: 18px;
   text-align: center;
   line-height: 30px;
   text-transform: initial;
+  margin-top: 45px;
 }
 
 .button-reasons {
   width: 184px;
   height: 45px;
+  margin-top: 45px;
   background-color: $bright-orange;
   font-size: 20px;
   line-height: 45px;
@@ -105,7 +113,7 @@
   text-transform: initial;
   align-self: center;
   justify-self: center;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   &:hover {
     background-color: $c-menu;
   }
@@ -115,10 +123,9 @@
   color: #eff9ff;
 }
 
-@media all and (min-width: 768px) {
-  .section1,
-  .wrapper {
-    padding-left: 39px;
+@media (min-width: 768px) {
+  .container {
+    margin: 0 39px;
   }
 
   .title-section1 {
@@ -132,16 +139,17 @@
 
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30% 40% 30%;
+    grid-template-rows: 33% 33% 33%;
   }
 
   .item1 {
-    padding: 20px;
     font-size: 26px;
     grid-column: span 3;
   }
 
-  .item2-title, .item3-title, .item4-title {
+  .item2-title,
+  .item3-title,
+  .item4-title {
     font-size: 24px;
     font-family: $font-slab;
   }
@@ -152,5 +160,31 @@
 
   .button-reasons {
     grid-column: span 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-hero {
+    margin: 0 275px;
+  }
+
+  .container {
+    margin: 0 275px;
+  }
+
+  .button-go {
+    width: 160px;
+  }
+
+  .p1-section1 {
+    font-size: 16px;
+  }
+
+  .title-section1 {
+    font-size: 32px;
+  }
+
+  .button-reasons{
+    width: 255px;
   }
 }

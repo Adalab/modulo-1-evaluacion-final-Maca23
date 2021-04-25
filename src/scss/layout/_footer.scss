@@ -1,6 +1,5 @@
 .footer {
   width: 100%;
-  height: auto;
   background-color: $dark-grey-blue;
   color: $c-white;
   display: flex;
@@ -33,12 +32,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 15px;
 }
 
 .list-nav1 {
   width: 100%;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -80,11 +80,12 @@
   .button-footer {
     margin-left: 39px;
   }
-  
+
   .footer-wrapper {
     width: 90%;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 39px;
   }
 
   .list-nav1,
@@ -95,5 +96,18 @@
 
   .copy {
     order: -1;
+    margin-bottom: 90px;
+  }
+
+  .list-nav2 {
+    margin-bottom: 70px;
+    margin-right: 39px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-wrapper {
+    margin: 0 370px;
+    width: 45%;
   }
 }
