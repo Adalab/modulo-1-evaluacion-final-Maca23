@@ -46,7 +46,7 @@
   height: 45px;
   border-radius: 22.5px;
   border: 2px solid $bright-orange;
-  background-color: white;
+  background-color: $c-white;
   color: $bright-orange;
   font-family: $font-roboto;
   text-transform: capitalize;
@@ -58,6 +58,9 @@
   display: flex;
   justify-content: center;
   align-self: flex-start;
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 
 .a-go {
@@ -105,6 +108,9 @@
   align-self: center;
   justify-self: center;
   margin-bottom: 60px;
+  &:hover {
+    background-color: $c-menu;
+  }
 }
 
 .a-reasons {
