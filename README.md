@@ -1,5 +1,3 @@
-![Maca23](http://beta.adalab.es/modulo-1-evaluacion-final-Maca23/)
-
 # Evaluación final. Módulo HTML y CSS
 
 Mi primer proyecto de manera individual. Forma parte de la evaluación académica y personal, sobre el aprendizaje adquerido en 3 semanas. Gracias a la utilización de **Adalab Starter Kit**, creado en **node y gulp**, he podido trabajar de manera cómoda, fácil y ordenada.
