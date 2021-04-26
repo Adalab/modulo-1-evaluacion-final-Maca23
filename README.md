@@ -1,10 +1,10 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+![Maca23](http://beta.adalab.es/modulo-1-evaluacion-final-Maca23/)
 
-# Adalab web starter kit
+# Evaluación final. Módulo HTML y CSS
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+Mi primer proyecto de manera individual. Forma parte de la evaluación académica y personal, sobre el aprendizaje adquerido en 3 semanas. Gracias a la utilización de **Starter Kit**, creado en **node y gulp**, he podido trabajar de manera cómoda, fácil y ordenada.
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+En este proyecto he contado con una plantilla con funcionalidades preinstaladas y preconfiguradas. Incluye un motor de plantillas HTML, preprocesador SASS y un servidor local.
 
 En el Kit hay 3 tipos de ficheros y carpetas:
 
