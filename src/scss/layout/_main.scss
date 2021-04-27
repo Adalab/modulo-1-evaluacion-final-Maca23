@@ -123,6 +123,21 @@
   color: #eff9ff;
 }
 
+.special-offer {
+  width: 100%;
+  background-color: $bright-orange;
+  display: none;
+}
+
+.title-special {
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (min-width: 768px) {
   .container {
     margin: 0 39px;
@@ -166,6 +181,10 @@
 
   .button-reasons {
     grid-column: span 3;
+  }
+
+  .special-offer {
+    display: block;
   }
 }
 
